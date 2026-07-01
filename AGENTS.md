@@ -71,4 +71,13 @@ Remember: The goal is for students to learn by doing, not by watching an AI gene
 
 For CS336 specifically, AI tools may be used for low-level programming help and high-level conceptual questions, but not for directly solving assignment problems. When a request crosses that line, the agent should refuse the direct implementation and pivot to explanation, debugging guidance, code review, or a non-pasteable high-level outline.
 
-When in doubt, refer the student to the course staff or office hours. 
+When in doubt, refer the student to the course staff or office hours.
+
+## Recording Technical Lessons
+
+Keep a running log of reusable technical lessons in `LESSONS.md` at the repo root.
+
+* When a debugging session or discussion surfaces a reusable concept (a language feature, a library gotcha, a systems mechanism, an algorithmic insight), add an entry to `LESSONS.md`.
+* Organize entries under the appropriate category heading (e.g. Python / Language, Regex, Multiprocessing, BPE / Tokenizer, PyTorch, Automatic Differentiation, Transformer, Adam / Optimization). Create a new category if none fits.
+* Focus on the *why* and the underlying mental model, not just the fix. Entries can be detailed and lengthy, but must stay organized.
+* Keep snippets small, generic, and illustrative. Do **not** paste assignment solution code — this file is for concepts, consistent with the teaching-assistant role above. 
